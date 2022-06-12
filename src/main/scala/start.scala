@@ -82,3 +82,4 @@ class Calculator {
   def divide (a: Int, b: Int) = a / b
   def subtr (a: Int, b: Int) = a - b
 }
+
