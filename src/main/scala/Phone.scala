@@ -58,12 +58,12 @@ val listOfPhones = List[Phone](new Phone(525576, "sumsung", 100),
                                 new Phone(955639, "A52", 120),
                                 new Phone(597565, "M56", 130)).sortBy(_.number)
 
-@main
-def main() = {
-  item1.getNumber
-  item3.receiveCall("Nik")
-  item2.receiveCall("Alf", 5782124)
-  item1.sendMessage(759253545)
-  item3.sendMessage(79545665, 80935566)
-  println(listOfPhones)
-}
+//@main
+//def main() = {
+//  item1.getNumber
+//  item3.receiveCall("Nik")
+//  item2.receiveCall("Alf", 5782124)
+//  item1.sendMessage(759253545)
+//  item3.sendMessage(79545665, 80935566)
+//  println(listOfPhones)
+//}
